@@ -142,6 +142,6 @@ execute_passes() {
 echo "Running opt to apply pass..."; echo
 
 execute_passes "-licm-pass"
-execute_passes "licm"
+#execute_passes "licm"
 
 echo; echo "Build and processing completed."
